@@ -20,19 +20,47 @@
     </header>
   	<main>
       <section>
-        <ul>
-          <h3>Инфраструктура:</h3>
-          <li>Бассейн</li>
-          <li>Парковка</li>
-          <li>WI-FI</li>
-        </ul>
-        <ul>
-          <h3>Тип жилья:</h3>
-          <li>Гостиница</li>
-          <li>Мотель</li>
-          <li>Апартаменты</li>
-        </ul>
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
+                <label for="filter-swimming-pool">Бассейн</label>
+              </li>
+              <li>
+                <input type="checkbox" name="parking" id="filter-parking" >
+                <label for="filter-parking">Парковка</label>
+              </li>
+              <li>
+                <input type="checkbox" name="WI-FI" id="filter-WI-FI" >
+                <label for="filter-WI-FI">WI-FI</label>
+              </li>
+            </ul>
+          </fieldset>
 
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="typeOfPlace" value="hotel" id="filter-hotel" >
+                <label for="filter-hotel">Гостиница</label>
+              </li>
+              <li>
+                <input type="radio" name="typeOfPlace"  value="motel"  id="filter-motel" >
+                <label for="filter-motel">Мотель</label>
+              </li>
+              <li>
+                <input type="radio" name="typeOfPlace" value="motel" id="filter-apartments" >
+                <label for="filter-apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <p>Стоимость</p>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
 
       <section>
