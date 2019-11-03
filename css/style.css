@@ -1,19 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: black;
+  
   position:relative;
-  
-  background-image: url("../img/svg/polygon.svg"), url("../img/jpg/top_background.jpg");
-  background-position: 50% 506px, top center;
-  background-repeat: no-repeat, no-repeat;
-  background-color: #f2f2f2;
- 
-  
+
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 a {
@@ -25,17 +22,36 @@ h3 {
   font-weight: 700;
 }
 
-.main-header{
-   text-align: center;
+.index-page{
+  background-image: url("../img/svg/polygon.svg"), url("../img/jpg/top_background.jpg");
+  background-position: 50% 506px, top center;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #f2f2f2;
+}
 
+
+.main-header a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-header{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  
 }
 
 
 .main-navigation li{
 	display: inline-block;
-  margin: 0;
-  padding: 0;
   text-align: justify;
+  color: #000000;
 
 }
 
@@ -154,4 +170,15 @@ h3 {
     text-align: justify ;
 }
 
+.button-find{
+  width: 458px;
+  height: 58px;
+  background-color: #81b3d2;
+  border: none;
+}
 
+.welcomeSVG img{
+   width: 459px;
+  height: 353px;
+  object-fit: contain;
+}
